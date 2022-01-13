@@ -142,6 +142,7 @@ background-color:white;
 input{
     color: goldenrod;
     font-family: Arial, Helvetica, sans-serif;
+    
 }
 
 .div-form p{
@@ -163,6 +164,8 @@ h1{
 .input_det{
     height: 25px;
     width: 150%;
+    border-radius: 5px;
+    border-color: silver;
 }
 
 .div-form{
