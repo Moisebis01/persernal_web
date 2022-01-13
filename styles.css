@@ -9,6 +9,11 @@ body{
     background-color: rgb(150, 87, 5);
     padding-bottom: 10%;
     color: white;
+    float: left;
+}
+
+.div-form{
+    float: right;
 }
 
 h2{
@@ -53,7 +58,7 @@ h1{
 
 }
 
-.maini-div{
+.mini-div{
     margin-left: 30%;
     margin-right: 20px;
     margin-top: -30%;
@@ -80,10 +85,12 @@ p{
 .column {
     float: left;
     width: 33.33%;
-    padding: 5px;
-    padding-top: -1px;
-    margin-left: 20px;
+    padding-top: 25px;
+    padding-bottom: fixed;
+}
 
+.column3{
+    padding-bottom: 100px;
 }
 
 .row::after {
@@ -100,7 +107,7 @@ p{
 
 }
 .momoimg:hover{
-    box-shadow: 0px 10px 5px rgb(255, 255, 255);
+    box-shadow: 0px 10px 5px orangered;
 }
 
 .mainabt-div{
@@ -114,3 +121,63 @@ video{
     width: 320px;
     height: 240px;
     border-radius: 10px;
+}
+
+p{
+    color: orangered;
+}
+
+#subm :hover{
+background-color:white;
+}
+
+#subm{
+    background-color: orangered;
+    height: 40px;
+    width: 100px;
+    border-radius: 20%;
+    margin-left: 30%;
+}
+
+input{
+    color: goldenrod;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.div-form p{
+    font-size: 25px;
+}
+
+#rad-fem{
+    box-sizing: 10px;
+}
+
+h1{
+    color: white;
+   
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+.input_det{
+    height: 25px;
+    width: 150%;
+}
+
+.div-form{
+    padding-top: 100px;
+    margin-right: 30%;
+}
+
+#p-rad{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    padding-right: 50px;
+    margin-left: -45%;
+}
+
+.my-form{
+    margin-left: -80%;
+}
+
