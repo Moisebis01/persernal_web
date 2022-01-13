@@ -8,58 +8,45 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+  <div>
         <div class="menu">
                 <img src="moise6.jpg" alt="" class="logo">
 
-                <h2 class="active"><a href="">HOME</a></h2>
+                <h2><a href="">HOME</a></h2>
                 <h2><a href="pass.html">MY PASSION</a></h2>
                 <h2><a href="gallery.html">GALLERY</a></h2>
-                <h2><a href="">ABOUT ME</a></h2>
-                <h2><a href="">REGISTER</a></h2>
+                <h2><a href="about_me.html">ABOUT ME</a></h2>
+                <h2 class="active"><a href="">REGISTER</a></h2>
             </div>
 
-        <div class="main-div">
-                <div class="form-maindiv">
-                   <h2 style="font-size: 40px; font-family: verdana; color: antiquewhite">Register</h2>
-                 <p style="color: antiquewhite; font-family: verdana" class="head">Create your account. It's free.</p>
-                     <div class="form-group">
-                   
-                       <div class="form-group"><input type="text" class="form-control" name="first_name" placeholder="First Name" required="required"></div>
-                       <div class="form-group">
-                       <input type="text" class="form-control" name="middle_name" placeholder="Middle Name" required="required">
-                         </div>
-                       <div class="form-group"><input type="text" class="form-control" name="last_name" placeholder="Last Name" required="required"></div>
-                       <div>
-                     </div>
-                       <input type="text" class="form-control" name="nick_name" placeholder="Nickname" required="required">
-                        
-                           
-                       </div>
-                       <div class="form-group">
-                       <input type="email" class="form-control" name="email" placeholder="Email" required="required">
-                       </div>
-                       <div class="form-group">
-                       <input type="phone_number" class="form-control" name="email" placeholder="Phone Number" required="required">
-                       </div>
-                       <div class="form-group">
-                         <input type="password" class="form-control" name="password" placeholder="Password" required="required">
-                       </div>
-                       <div class="form-group">
-                         <input type="password" class="form-control" name="confirm_password" placeholder="Confirm Password" required="required">
-                       </div>        
-                       <div class="form-group">
-                     <label style="color:antiquewhite" class="form-check-label"><input type="checkbox" required="required"> I accept the <a href="#" style="color: skyblue">Terms of Use</a> &amp; <a href="#" style="color: skyblue">Privacy Policy</a></label>
-                 </div>
-                    
-                 <div class="form-group">
-                         <button style="background-color: yellow; border-radius: 5px; border-color: beige; color: black; padding: 10px; font-weight: 400" type="submit">Register Now</button>
-                    
-                     </div>
-                 
-               <div style="color: antiquewhite" class="text-center">Already have an account? <a href="#" style="color: skyblue">Sign in</a></div>
-             </div>
-             
-        </div>
+            <div class="div-form">
+              <form action="">
+      
+              <h1> Register now</h1>
+      
+              <div class="my-form">
+              <P>
+              <input type="text" name="First-Name" id="male" placeholder="First Name" class="input_det"><br>
+              <input type="text" name="Second-Name" placeholder="Second Name:" class="input_det"><br>
+              <input type="phone_number" name="email" placeholder="Email" class="input_det"><br>
+              <input type="phone_number" name="phone_number" placeholder="Phone number" class="input_det"><br>
+              <input type="password" name="password" placeholder="Create Password" class="input_det"><br>
+              <input type="password" name="password" placeholder="Confirm Password" class="input_det"><br>
+              </p>
+              
+                <p id="p-rad">
+                  <input type="radio" name="gender" value="male" checked id="male">Male
+                  <input type="radio" name="gender" value="female" id="rad-fem">Female
+                </p>
+              </div>
 
+                  <p>
+                    <input type="submit" name="submit" id="subm">
+                  </p>
+      
+              </form>    
+          
+          </div>
+        </div>
 </body>
 </html>
